@@ -1,0 +1,34 @@
+{
+  "name": "react-app-oauth-boilerplate",
+  "version": "1.0.0",
+  "description": "A template to use to spin up a React/Express App with Auth0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kate-turnbull/React-App-Oauth-Boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kate-turnbull/React-App-Oauth-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/kate-turnbull/React-App-Oauth-Boilerplate#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "knex": "^1.0.3",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.3",
+    "react": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "redux-thunk": "^2.4.1",
+    "superagent": "^7.1.1",
+    "webpack": "^5.70.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
