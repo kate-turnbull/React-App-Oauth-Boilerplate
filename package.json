@@ -4,8 +4,12 @@
   "description": "A template to use to spin up a React/Express App with Auth0",
   "main": "server/index.js",
   "scripts": {
-    "dev": "webpack serve",
-    "build": "webpack"
+    "start": "node server",
+    "test": "jest --watchAll",
+    "dev": "run-p dev:client dev:server",
+    "dev:client": "webpack --watch",
+    "dev:server": "nodemon --watch server",
+    "lint": "eslint --ext .js,.jsx ."
   },
   "repository": {
     "type": "git",

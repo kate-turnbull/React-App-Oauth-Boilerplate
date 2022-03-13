@@ -14,8 +14,8 @@ server.use(express.urlencoded({ extended: false }))
 const staticFolder = path.join(__dirname, 'public')
 server.use(express.static(staticFolder))
 
-server.get('/', (req, res) => {
-    res.send('hello world!')
+server.get('*', (req, res) => {
+    res.sendFile(staticFolder + '/index.html')
 })
 
 module.exports = server 
