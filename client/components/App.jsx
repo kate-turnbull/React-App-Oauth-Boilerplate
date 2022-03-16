@@ -1,8 +1,7 @@
 import React from 'react'
 import { BrowserRouter, BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { Link } from 'react-router-dom'
-
-// import { useAuthO } from '@auth0/auth0-react'
+import { useAuth0 } from '@auth0/auth0-react'
 
 import MyNav from './MyNav'
 import Login from './Login'

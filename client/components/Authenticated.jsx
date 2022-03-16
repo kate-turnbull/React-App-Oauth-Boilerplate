@@ -1,14 +1,14 @@
-// import React from 'react'
-// import { useAuthO } from '@auth0/auth0-react'
+import React from 'react'
+import { useAuth0 } from '@auth0/auth0-react'
 
-// const isAuthenticated = () => {
-//     const { isAuthenticated } = useAuthO()
-//     console.log('isAuthenticated', isAuthenticated)
-//     return isAuthenticated
-// }
+const isAuthenticated = () => {
+    const { isAuthenticated } = useAuth0()
+    console.log('isAuthenticated', isAuthenticated)
+    return isAuthenticated
+}
 
-// export function IfAuthenticated ({ children }) {
-//     return isAuthenticated()
-//     ? <>{ children }</>
-//     : null
-// }
+export function IfAuthenticated ({ children }) {
+    return isAuthenticated()
+    ? <>{ children }</>
+    : null
+}
