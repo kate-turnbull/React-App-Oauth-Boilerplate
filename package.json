@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/kate-turnbull/React-App-Oauth-Boilerplate#readme",
   "dependencies": {
+    "@auth0/auth0-react": "^1.9.0",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "knex": "^1.0.3",
@@ -30,7 +31,9 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.2",
     "redux-thunk": "^2.4.1",
+    "rsuite": "^5.6.4",
     "superagent": "^7.1.1"
   },
   "devDependencies": {
